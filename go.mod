@@ -8,6 +8,7 @@ require (
 	github.com/go-resty/resty/v2 v2.16.5
 	github.com/joho/godotenv v1.5.1
 	google.golang.org/grpc v1.67.1
+	github.com/btcsuite/btcd/btcec/v2 v2.3.2
 )
 
 require (
