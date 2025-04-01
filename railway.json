@@ -1,9 +1,0 @@
-{
-  "build": {
-    "command": "go mod download && go build -o out",
-    "watchPaths": ["."]
-  },
-  "run": {
-    "command": "./out"
-  }
-}
