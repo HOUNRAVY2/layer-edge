@@ -1,9 +1,9 @@
 {
   "build": {
-    "command": "go build -o lightnode",
+    "command": "go mod download && go build -o out",
     "watchPaths": ["."]
   },
   "run": {
-    "command": "./lightnode"
+    "command": "./out"
   }
 }
