@@ -1,0 +1,9 @@
+{
+  "build": {
+    "command": "go build -o lightnode",
+    "watchPaths": ["."]
+  },
+  "run": {
+    "command": "./lightnode"
+  }
+}
